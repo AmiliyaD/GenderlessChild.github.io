@@ -1,0 +1,17 @@
+.font() {
+    font-size: 30px;
+    font-family: serif;
+}
+@back: blue;
+header {
+    background: @back;
+    span {
+        color: white
+    }
+}
+header {
+    .font;
+    &:hover {
+        color: red
+    }
+}

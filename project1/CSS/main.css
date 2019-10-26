@@ -1,0 +1,13 @@
+header {
+  background: #0000ff;
+}
+header span {
+  color: #ffffff;
+}
+header {
+  font-size: 30px;
+  font-family: serif;
+}
+header:hover {
+  color: #ff0000;
+}

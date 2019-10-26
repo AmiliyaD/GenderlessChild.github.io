@@ -1,0 +1,13 @@
+header {
+  background: blue;
+}
+header span {
+  color: white;
+}
+header {
+  font-size: 30px;
+  font-family: serif;
+}
+header:hover {
+  color: red;
+}
