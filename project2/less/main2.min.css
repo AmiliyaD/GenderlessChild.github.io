@@ -1,0 +1,12 @@
+body{text-align:center}
+header{background:red;width:90%;height:200px;margin-top:2%;margin-bottom:2%;display:inline-block}
+.menu{margin-right:3%;display:inline-block;width:25%;height:600px;background-color:#5f9ea0}
+.content{margin-left:-4px;display:inline-block;width:65%;height:600px;background-color:#b8860b}
+@media (max-width:600px){
+.content{width:90%}
+.menu{width:90%}
+}
+@media (min-width:600px) and (max-width:1000px){
+.content{width:85%}
+.menu{width:70%}
+}
